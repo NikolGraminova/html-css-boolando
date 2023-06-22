@@ -64,18 +64,10 @@
     width: 100%;
     height: 50px;
     color: white;
-
-    margin-top: 30px;
-}
-
-#page_info {
     font-family: 'Helvetica Now MT Text', sans-serif;
-    font-size: ;
+    margin-top: 60px;
 }
 
-#page_contacts {
-    font-family: 'Helvetica Now MT Text', sans-serif;
-}
 
 .item {
     display: flex;
@@ -89,13 +81,25 @@
     height: auto;
     border-style: solid;
     border-color: #DDDDDD;
+    padding-top: 5px;
+    padding-left: 5px;
+
 }
 
-.item_brand {}
+.item_brand {
+    font-size: 12px;
+    font-family: 'Helvetica Now MT Text', sans-serif;
+}
 
-.item_name {}
+.item_name {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+
+}
 
 .item_price {
-    font-size: 16px;
+    font-size: 13px;
     color: #FF0000;
+    font-family: 'Lato', sans-serif;
+
 }
