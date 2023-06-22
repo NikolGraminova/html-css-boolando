@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #category {
@@ -28,8 +28,7 @@
 
 
 #main_container {
-    width: 60%;
-    background-color: antiquewhite;
+    width: 70%;
     margin: auto;
 }
 
@@ -48,17 +47,29 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    background-color: aqua;
+    gap: 250px 30px;
+
 
 }
 
 .item {
     display: flex;
-    width: 200px;
+    width: 300px;
     height: 300px;
     flex-direction: column;
-    margin: 40px 20px;
+}
 
+.item_info {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DDDDDD;
+}
 
+.item_brand {}
 
+.item_name {}
+
+.item_price {
+    font-size: 16px;
+    color: #FF0000;
 }
