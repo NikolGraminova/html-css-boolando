@@ -5,14 +5,17 @@
 
 }
 
-#header {
+
+
+#my_header {
     background-color: #FF6900;
     height: 50px;
     width: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
 }
 
 #category {
@@ -22,13 +25,14 @@
 }
 
 #logo {
-    height: 30px;
-    width: 130px;
+    height: 20px;
+    width: 100px;
 }
 
 
 #main_container {
     width: 70%;
+    height: 100%;
     margin: auto;
 }
 
@@ -47,20 +51,42 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 250px 30px;
+    gap: 40px 20px;
+    width: auto;
+    height: auto;
+}
 
+#my_footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 50px;
+    color: white;
 
+    margin-top: 30px;
+}
+
+#page_info {
+    font-family: 'Helvetica Now MT Text', sans-serif;
+    font-size: ;
+}
+
+#page_contacts {
+    font-family: 'Helvetica Now MT Text', sans-serif;
 }
 
 .item {
     display: flex;
     width: 300px;
-    height: 300px;
+    height: auto;
     flex-direction: column;
 }
 
 .item_info {
     border-width: 1px;
+    height: auto;
     border-style: solid;
     border-color: #DDDDDD;
 }
